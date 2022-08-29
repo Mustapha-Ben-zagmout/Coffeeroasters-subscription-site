@@ -1,0 +1,79 @@
+body{
+    width: 87%;
+    margin: auto;
+    background-color: #FEFCF7   ;
+}
+
+
+.header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.combo{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+.lien{
+    color:#83888f;
+}
+.combo :hover{
+    color: black;
+}
+.lien{
+    text-decoration: none;
+    font-family: "barlow";
+}
+.hero-pic{
+    background-image: url(https://adler-coffeeroaster.netlify.app/assets/plan/tablet/image-hero-blackcup.jpg);
+    background-repeat: no-repeat;
+    height: 55vh;
+    border-radius: 10px;
+    background-position: center;
+    
+}
+.hero-box{
+    padding-top: 90px;
+    margin-left: 150px;
+}
+.hero-box h1{
+    font-size: 72px;
+    line-height: 48px;
+    font-family: "Fraunces", serif;
+    color: white;
+
+}
+.hero-box p{
+font-size: 18px;
+   font-family: 'barlow', sans-serif;
+   width: 500px;
+   color: white;
+}
+.numbers{
+    display: flex;
+    gap: 100px;
+    margin-top: 150px;
+    
+}
+.number{
+    font-size: 82px;
+    font-family: "Fraunces", sans-serif;
+    color: #fdd6ba;
+    margin-bottom: -30px;
+}
+.chose{
+    font-size: 38px;
+    line-height: 38px;
+    color: #333D4B;
+    font-family: "Fraunces", sans-serif;   
+}
+.parag{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "barlow", serif;
+}

@@ -1,0 +1,207 @@
+body{
+    width: 87%;
+    margin: auto;
+    background-color: #FEFCF7   ;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-bottom: 90px;
+  
+  }
+  .combo{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+.combo :hover{
+    color: black;
+}
+.lien{
+    color:#83888f;
+    text-decoration: none;
+}
+
+.about-pic{
+    background-image: url(https://adler-coffeeroaster.netlify.app/assets/about/desktop/image-hero-whitecup.jpg);
+    background-repeat: no-repeat;
+    height: 60vh;
+    border-radius: 10px; 
+    background-size:cover;
+}
+
+.about-box{
+    padding-top:130px;
+}
+
+.about-box h1{
+    font-size: 72px;
+    line-height:72px;
+    font-family: "franuces", serif;
+    margin-left: 100px;
+    color:white;
+    
+}
+.about-box p{
+    font-family: 'barlow', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 100px;
+    width: 50%;
+}
+
+.commitment{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    width: 85%;
+    margin: auto;
+    margin-top: 90px !important;
+}
+
+.barman img{
+    width: 350px;
+    height: 520px;
+
+}
+.barman-content{
+    
+}
+
+.barman-content h1{
+       font-size: 50px;
+       font-family: "franuces";
+       color: #333D4B;
+} 
+.barman-content p{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'barlow', serif;
+    color: #333D4B; 
+} 
+
+.cappo-box{
+    background-image: url(https://adler-coffeeroaster.netlify.app/assets/about/desktop/bg-quality.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    margin-top: 100px;
+    width: 95%;
+    padding-right: 5rem;
+}   
+
+.cappo h1{
+    color: white;
+    font-size: 40px;
+    line-height: 48px; 
+    font-family: "Fraunces", serif;
+    padding-top: 20px;
+    margin-left: 80px;
+}
+
+.cappo p{
+    color: white;
+    line-height: 1.6;
+    font-size: 18px;
+    line-height: 20px; 
+    letter-spacing: 0.1rem;
+    font-family: 'barlow', serif;
+    width: 700px;
+    margin-left: 80px;
+}
+
+.chino{
+    background-image: url("https://adler-coffeeroaster.netlify.app/assets/about/desktop/image-quality.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 545px;
+    height: 474px;
+    margin-top: -160px;
+}
+
+.contries-title h2{
+    color: #000000;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 130px;
+}
+
+.contries{
+    display: flex;
+    gap: 150px;
+    padding-top: 80px;
+}
+.contries-liste{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'barlow', sans-serif;
+}
+
+{
+    font-size: 32px;
+    line-height: 36px;
+    font-family: "franuces", serif;
+}
+.tirtiary{
+    font-size: 34px;
+    line-height: 36px;
+    font-family: "franuces", serif;
+    padding-top: 40px;
+}
+.footer{
+    height: 30vh;
+    background-color: #333D4B;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-logo{
+    background-image: url('https://adler-coffeeroaster.netlify.app/assets/shared/desktop/logo-light.svg');
+    width: 237px;
+    height: 37px;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+}
+
+.nav-item{
+    list-style: none;
+}
+.nav-item a{
+    color: white;
+    text-decoration: none;
+    color: #83888f;
+    font-size: 18px;
+}
+.nav-menu{
+    display: flex;
+    gap: 30px;  
+}
+.footer-box{
+    display: flex;
+    align-items: center;
+}
+.footer-elm{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logos img{
+    margin-right: 30px;
+}
+.nav-item a:hover{
+   color: white;
+}

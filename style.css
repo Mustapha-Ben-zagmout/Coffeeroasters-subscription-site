@@ -1,0 +1,267 @@
+body{
+    width: 87%;
+    margin: auto;
+    background-color: #FEFCF7   ;
+}
+
+
+.header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+
+}
+.logo{
+
+}
+.combo{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+.lien{
+    color:#83888f;
+}
+.combo :hover{
+    color: black;
+}
+.lien{
+    text-decoration: none;
+    
+}
+.coffe{
+    background-image: url(https://adler-coffeeroaster.netlify.app/assets/home/desktop/image-hero-coffeepress.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    border-radius: 10px; 
+}
+.box{
+    width: 87%;
+    margin: auto;
+    margin-bottom: 200px;
+    
+}
+.great{
+    font-size: 72px;
+    line-height: 72px;
+    font-family: "Fraunces", serif;
+    padding-top: 120px;
+    color: white;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.para{
+    font-size: 16px;
+    font-family: "Barlow", sans-serif;
+    color: white;
+    width: 50%;
+    margin-bottom: 90px;
+    
+}
+.create{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: #0e8784;
+    padding: 20px 50px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    
+}
+.our h1{
+    text-align: center;
+    font-size: 160px !important;
+    color: white; 
+    background: linear-gradient(180deg, #83888f 1%, #fefcf7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.coffe-brand{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    
+}
+ .coffe-brand img{
+    width: 290px;
+    height: 200px;
+    margin-top: -170px;
+
+ }
+
+ .coffe-brand h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight:800;
+    font-family: 'fraunces' sans-serif;
+    color: #333D4B;
+    margin-top: 100px;
+ }
+
+.coffe-brand p{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+    font-family: 'Barlow' sans-serif;
+}
+
+.middle{
+    background-color: #2C343E;
+    border-radius: 8px;
+    height: 90vh;
+    
+}
+.best{
+    width: 400px;
+    height: 400px;
+    background-color: #0E8784;
+    border-radius: 8px;
+    padding-top: 60px;
+    margin-top: -160px;
+}
+.middle-box{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;    
+}
+.hero-two h2{
+    text-align: center ;
+    font-size: 32px;
+    font-family: 'franuces', serif;
+    color:white;
+    margin: 80px 100px;
+    padding-top: 100px;
+    width: 90px;
+    margin-left: 550px;
+}
+.hero-two p{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing:0.2rem;
+    color: white;
+    width:400px;
+    margin-left: 400px;
+    
+}
+.bean img{
+    align-items: center ;
+}
+.first h3{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'franuces', serif;
+    color:white;
+    padding-top: 40px;
+}
+.first p{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'barlow', sans-serif;
+    color:white;
+    letter-spacing: 0.2rem;
+    margin-top: 80px;
+    
+}
+.bean img{
+    margin-left: 40%;
+}
+.choice h1{
+    color:#000000;
+    padding-top: 50px;
+  
+}
+.triple{
+    padding-top: 70px;
+    display: flex;
+}
+.number{
+    font-size: 80px;
+    line-height: 80px;
+    font-family: 'Fraunces', serif;
+    color: #fdd6ba;
+}
+.t {
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B; 
+}
+.triple-one p{
+    font-family: 'barlow', serif;
+    padding-top: 30px; 
+    width: 90%;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.bott a{
+    text-decoration: none;
+    background-color: #0E8784;
+    padding: 18px 50px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+}
+.bott{
+    margin-top: 60px;
+}
+.bott a:hover{
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+.footer{
+    height: 30vh;
+    background-color: #333D4B;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-logo{
+    background-image: url('https://adler-coffeeroaster.netlify.app/assets/shared/desktop/logo-light.svg');
+    width: 237px;
+    height: 37px;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+}
+
+.nav-item{
+    list-style: none;
+}
+.nav-item a{
+    color: white;
+    text-decoration: none;
+    color: #83888f;
+    font-size: 18px;
+}
+.nav-menu{
+    display: flex;
+    gap: 30px;  
+}
+.footer-box{
+    display: flex;
+    align-items: center;
+}
+.footer-elm{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logos img{
+    margin-right: 30px;
+}
+.nav-item a:hover{
+   color: white;
+}
